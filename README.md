@@ -1,6 +1,19 @@
-This is a test script for job vacancy at catalystIT. 
+This is a test script for job vacancy at catalystIT.
+Task 1
+To run this script type 'php user_upload.php' in root location of the folder 
 This project contains script to add a csv file contents to data with simple updates to data
 
+Task 2
+To run this script type 'php foobar.php' in root location of the folder
+
+
+Output the numbers from 1 to 100
+• Where the number is divisible by three (3) output the word “foo”
+• Where the number is divisible by five (5) output the word “bar”
+• Where the number is divisible by three (3) and (5) output the word “foobar”
+• Only be a single PHP file
+
+Task 1
 Create a PHP script, that is executed from the command line, which accepts a CSV file as input (see command
 line directives below) and processes the CSV file. The parsed file data is to be inserted into a MySQL database.
 A CSV file is provided as part of this task that contains test data, the script must be able to process this file
