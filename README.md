@@ -1,7 +1,8 @@
 This is a test script for job vacancy at catalystIT.
+Task 1 contains script to add a csv file contents to data with simple updates to data and Task 2 contains script to printout desired output
+
 Task 1
 To run this script type 'php user_upload.php' in root location of the folder 
-This project contains script to add a csv file contents to data with simple updates to data
 
 Task 2
 To run this script type 'php foobar.php' in root location of the folder
