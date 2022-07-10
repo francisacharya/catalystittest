@@ -1,5 +1,8 @@
 <?php
- include('database.php');
+include('database.php');
+//db connection , this is to be done in seperate file
+$conn = db_connect();
+var_dump($conn);
 /**
 
  * @param Arr $single 
@@ -50,7 +53,6 @@ foreach ($requiredArray as $key => $singleValue) {
    $processedArr[$key] = processVals($singleValue);
 }
 print_r($processedArr);die();
-//db connection , this is to be done in seperate file
 
 // data processing before insert to db
 //data insertion to db
