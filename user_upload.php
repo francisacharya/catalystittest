@@ -50,7 +50,20 @@ foreach ($requiredArray as $key => $singleValue) {
 }
 print_r($processedArr);die();
 //db connection , this is to be done in seperate file
+
 // data processing before insert to db
 //data insertion to db
+
+/*
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `fname` varchar(255) DEFAULT NULL,
+  `lname` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `created_date` datetime DEFAULT CURRENT_TIMESTAMP,
+  `updated_date` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf32;
+*/
 
 ?>
